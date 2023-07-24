@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en " data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,6 +29,13 @@
       rel="stylesheet"
     />
 
+    <!-- font awesome -->
+
+    <script
+      src="https://kit.fontawesome.com/5c95e5cc68.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Legal Solution</title>
 
     <!-- font style -->
@@ -38,7 +45,7 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              "btn-custom": "#B68C5A",
             },
           },
         },
@@ -55,8 +62,48 @@
     </style>
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <!-- header -->
+
+    <header class="max-w-screen-xl mx-auto">
+      <!-- navbar section -->
+
+      <nav>
+        <div
+          class="flex flex-col justify-center items-center lg:flex-row space-y-8 mt-4 lg:justify-between lg:my-12 lg:items-center"
+        >
+          <div class="flex items-center justify-center gap-4">
+            <div>
+              <img src="./images/business.png" alt="" />
+            </div>
+            <div>
+              <a class="text-4xl font-garamond">Justice</a>
+            </div>
+          </div>
+          <div class="navbar-center lg:flex">
+            <ul class="lg:flex gap-7 font-poppins">
+              <li><a>Home</a><i class="fa-solid fa-chevron-right"></i></li>
+              <li><a>Service</a><i class="fa-solid fa-chevron-right"></i></li>
+              <li><a>Cases</a><i class="fa-solid fa-chevron-right"></i></li>
+              <li><a>Blog</a><i class="fa-solid fa-chevron-right"></i></li>
+              <li>
+                <a>Contact Us</a> <i class="fa-solid fa-chevron-right"></i>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a
+              class="btn bg-btn-custom text-lg p-5 w-[220px] h-16 font-semibold text-white font-poppins"
+              >Free Consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner section -->
+
+      <section></section>
+    </main>
     <footer></footer>
   </body>
 </html>
